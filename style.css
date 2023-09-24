@@ -1,0 +1,62 @@
+body{
+    background-image: url("daniel-chen-cNaEqXSsZ0k-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+input{
+    height: 18px;
+    opacity: 100%;
+}
+
+.formcontent{
+    margin-right: 42px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.form-group{
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+    column-gap: 7px;
+}
+.form-group button{
+    margin-right: 6.5px;
+    background-color: darkgrey;
+    color: white;
+    border: none;
+    width: 100px;
+    padding : 5px;
+    border-radius: 2px;
+}
+
+.container .formcontainer{
+    width: 650px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0.9;
+    /* border-radius: 24px; */
+
+}
+
+.container h1{
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.formcontainer #feedback{
+    margin-left: 24px;
+    margin-bottom: 40px;
+}
+
+#message{
+    margin-bottom: 12px;
+}
+
+
+
